@@ -99,7 +99,7 @@ async function geojsonFetch() {
     let response, stations, link, table;
     response = await fetch('assets/1line.geojson');
     stations = await response.json();
-    response = await fetch('assets/linkline.json');
+    response = await fetch('assets/LINKLine.json');
     link = await response.json();
 
         // add link boundary
